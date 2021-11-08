@@ -30,7 +30,7 @@ public class SqAreaTest {
         double expected = 16;
         double p = 20;
         double k = 4;
-        double out = SqArea.sqarea(p,k);
+        double out = SqArea.sqarea(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
 
