@@ -15,9 +15,9 @@ public class CounterTest {
 
     @Test
     public void whenSumNumbersFromOneToOneThenZero() {
-        int start= 1;
+        int start = 1;
         int finish = 1;
-        int result = Counter.sumByEven(start, finish) ;
+        int result = Counter.sumByEven(start, finish);
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
